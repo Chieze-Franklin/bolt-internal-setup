@@ -12,7 +12,7 @@ var getSetup = function(){
 	//	__setup = JSON.parse(data);
 	//});
 
-	var data = fs.readFileSync(path.join(__dirname, './../../../sys/server/setup.json')); //deliberately reading the file sync
+	var data = fs.readFileSync(path.join(__dirname, './../../sys/server/setup.json')); //deliberately reading the file sync
 	__setup = JSON.parse(data);
 	return __setup;
 }

@@ -1,7 +1,8 @@
 {
   "name": "bolt-internal-setup",
   "description": "internal module used to get the tasks to be run during Bolt setup phase.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "setup.js",
   "author": {
     "name": "Chieze Franklin",
     "email": "chieze.franklin@gmail.com",
@@ -15,7 +16,7 @@
   "files": [
     "LICENSE",
     "README.md",
-    "index.js"
+    "setup.js"
   ],
   "bugs": {
     "url": "https://github.com/Chieze-Franklin/bolt-internal-setup/issues"
